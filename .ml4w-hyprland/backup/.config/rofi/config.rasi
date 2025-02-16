@@ -1,0 +1,4 @@
+@import "/usr/share/rofi/themes/solarized_alternate.rasi"
+configuration {
+    matching: "fuzzy-case-insensitive";
+}

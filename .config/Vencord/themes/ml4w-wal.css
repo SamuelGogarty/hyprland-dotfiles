@@ -1,0 +1,88 @@
+/* import theme modules */
+@import url('https://refact0r.github.io/system24/src/main.css'); /* main theme css. DO NOT REMOVE */
+@import url('https://refact0r.github.io/system24/src/unrounding.css'); /* gets rid of all rounded corners. remove if you want rounded corners. */
+
+:root {
+
+    /* *.background */
+    --background-primary: #090C10;
+    --background-secondary: #090C10;
+    --background-tertiary: #090C10;
+
+    --background-primary-alt: #3F6535;
+    --background-secondary-alt: #3F6535;
+    --background-tertiary-alt: #3F6535;
+
+    --channeltextarea-background: #3F6535;
+    --custom-channel-members-bg: #E3100A;
+
+    --profile-gradient-primary-color: #26BB4C;
+    --profile-gradient-secondary-color: #e6bc81;
+
+    --__header-bar-background: #090C10 !important;
+
+    --scrollbar-auto-track: #090C10;
+    --scrollbar-thin-track: #090C10;
+
+    /* slightly darker background - useful for separating */
+    --input-background: color-mix(in srgb, #090C10, black 20%);
+    --autocomplete-bg: color-mix(in srgb, #090C10, black 20%);
+    --background-nested-floating: color-mix(in srgb, #090C10, black 20%);
+    --background-floating: color-mix(in srgb, #090C10, black 20%);
+
+    /* primary.* */
+    --primary-630: #090C10;
+
+    /* *.color2 - secondary elements */
+    --scrollbar-auto-thumb: #9B1715;
+    --scrollbar-thin-thumb: #9B1715;
+    --interactive-muted: #9B1715;
+    --text-muted: #9B1715;
+    --background-modifier-hover: color-mix(in srgb, #9B1715, black 40%);
+    --background-modifier-active: color-mix(in srgb, #9B1715, black 20%);
+    --background-modifier-accent: #9B1715;
+    --background-accent: #9B1715;
+
+    /* *.color3 */
+    --red-400: #E3100A;
+    --background-modifier-selected: #E3100A;
+
+    /* *.color4 - main theme color: flashy, important elements */
+    --status-danger: #A8522A;
+    --button-outline-danger-border: #A8522A;
+    --button-outline-danger-text: #A8522A;
+    --button-danger-background: #A8522A;
+
+    --yellow-300: #A8522A;
+
+    /* *.color5 - light theme color */
+    --header-primary: #E4600D;
+    --brand-experiment: #E4600D;
+    --brand-experiment-360: #E4600D;
+    --brand-experiment-500: #E4600D;
+    --profile-gradient-button-color: #E4600D;
+
+    --green-360: #E4600D;
+
+    /* *.color6 - lighter theme color */
+    --channels-default: #26BB4C;
+    --channel-icon: #26BB4C;
+
+    /* *.color7 - very light, text and foreground */
+    --text-normal: #e6bc81;
+    --interactive-active: #e6bc81;
+}
+
+/* status indicators */
+rect[fill=#f23f43] {{
+    fill: #E3100A !important;
+}}
+
+rect[fill=#f0b232] {{
+    fill: #A8522A !important;
+}}
+
+rect[fill=#23a55a] {{
+    fill: #E4600D !important;
+}}
+
